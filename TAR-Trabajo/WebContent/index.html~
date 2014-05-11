@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>TAR - Que vayan primero ellos...</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1 style=" font-size: 3em;">Que vayan primero ellos...</h1>
+					<img src="img/FollowYourCuriosity.jpg" style="height: 350px;">
+					<h3>Tecnologías y Arquitecturas Robóticas</h3>
+				</section>
+
+				<section>
+					<section>
+						<h3>Los primeros pasos, la Luna</h3>
+						<img src="img/elliott_and_et_in_front_of_the_moon.jpg"/>
+					</section>
+					<section>
+						<h2>Programa Lunokhod</h2>
+						<ul>
+							<li class="fragment roll-in">Primer rover en ser controlado en la Luna en 1969</li>
+							<li class="fragment roll-in">Duró más de 30 años (récord actual)</li>
+							<li class="fragment roll-in">Equipado con antenas, cámaras de televisión y dispositivos para examinar el suelo lunar.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Programa "Apollo Lunar Roving Vehicle</h2>
+						<ul>
+							<li class="fragment roll-in">Rovers en las misiones Apollo 15, 16 y 17</li>
+							<li class="fragment roll-in">Podía transportar hasta dos astronautas, su equipamiento y muestras lunares. </li>
+							<li class="fragment roll-in">Tenía baterías no recargables, que duraron 92 Km (también para cámaras y transmisiones)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Programa "Apollo Lunar Roving Vehicle</h2>
+						<img src="img/Boeing lunar-Roving-Vehicle_P1.jpg"/>
+					</section>
+					<section>
+						<h2>Misión Chang’e 3</h2>
+						<ul>
+							<li class="fragment roll-in">Poca información proporcionada por la agencia espacial China.</li>
+							<li class="fragment roll-in">Diseño e instrumentos similares al Spirit y Opportunity lanzados a Marte.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Misión Chang’e 3</h2>
+						<img src="img/Yutu.jpg"/>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>La misión a Marte</h2>
+						<img src="img/MarsMap.png"/>
+					</section>
+					<section>
+						<h3>Objetivos de las misiones a Marte</h3>
+						<ul>
+							<li class="fragment roll-in">Determinar la naturaleza y hacer inventario de los compuestos basados en carbono que pudieran encontrarse en la superficie.</li>
+							<li class="fragment roll-in">Investigar la química de los bloques que construyen la vida (carbono, hidrógeno, nitrógeno, oxígeno, fósforo y sulfuro).</li>
+							<li class="fragment roll-in">Identificar restos de procesos biológicos.</li>
+							<li class="fragment roll-in">Interpretar los posibles procesos de formación y modificación de rocas</li>
+							<li class="fragment roll-in">Determinar la presencia y el estado y distribución de ciclos de agua y dióxido de carbono.</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Mars Pathfinder (rover Sojourner)</h3>
+						<ul>
+							<li class="fragment roll-in">Primer rover en pisar Marte.</li>
+							<li class="fragment roll-in">Prueba de concepto para varias tecnologías utilizadas, como:</li>
+							<ul>
+								<li class="fragment roll-in">El sistema de aterrizaje con airbag</li>
+								<li class="fragment roll-in">El sistema para sortear obstáculos automáticamente</li>
+							</ul>
+
+							<li class="fragment roll-in">Se aprovechó posteriormente en la misión Mars Exploration Rovers.</li>
+							<li class="fragment roll-in">Equipado con paneles solares y baterías no recargables.</li>
+							<li class="fragment roll-in">CPU 80C85 (variante del 8085, sucesor del 8080) a 2 MHz y 64 KBytes de RAM.</li>
+							<li class="fragment roll-in">Comunicación con modems de 9600 baudios</li>
+							<li class="fragment roll-in">Espectrómetro de rayos X (APXS)</li>
+							<li class="fragment roll-in">Dos cámaras monocromas y una a color</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Mars Pathfinder (rover Sojourner)</h3>
+						<img src="img/Sojourner_on_Mars_PIA01122.jpg"/>
+					</section>
+<section>
+					<h3>Mars Express Orbiter y Beagle 2</h3>
+						<ul>
+							<li class="fragment roll-in">La misión se trataba de la puesta en órbita del Mars Express y del posterior lanzamiento del “laboratorio en tierra” Beagle 2.</li>
+							<li class="fragment roll-in">El Beagle 2 era un rover con un brazo robótico con:</li>
+							<ul>
+								<li class="fragment roll-in">Cámaras estéreo</li>
+								<li class="fragment roll-in">Microscopio</li>
+								<li class="fragment roll-in">Espectŕometro Mössbauer</li>
+								<li class="fragment roll-in">Espectrómetro Rayos X</li>
+								<li class="fragment roll-in">Taladro</li>
+							</ul>
+
+							<li class="fragment roll-in">Beagle 2 nunca se comunicó con tierra tras su separación del Express.</li>
+							<li class="fragment roll-in">Aún así, el express ha enviado increíbles imágenes 3D e imágenes a color del planeta errante.</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Mars Express Orbiter y Beagle 2</h3>
+						<img src="img/mars-express_art_f840.jpg"/>
+					</section>
+					<section>
+						<h3>Mars Exploration Rovers</h3>
+						<ul>
+							<li class="fragment roll-in">Se lanzaron dos rovers a lados opuestos del planeta Marte en 2003 para obtener pistas sobre el pasado de Marte, rocas y suelos que puedan dar información sobre la existencia de agua en el pasado.</li>
+							<li class="fragment roll-in">Spirit dejó de emitir comunicación en 2010 pero el Opportunity sigue funcionando actualmente junto con Curiosity.</li>
+							<li class="fragment roll-in">Los dos rovers tienen el mismo diseño (son gemelos):</li>
+							<ul>
+								<li class="fragment roll-in">6 ruedas y cada una con su propio motor</li>
+								<li class="fragment roll-in">180 Kg y 1.5x2.3x1.6m de tamaño</li>
+								<li class="fragment roll-in">Placas solares de 140W y baterías de ión-litio</li>
+								<li class="fragment roll-in">CPU RAD6000 a 20 MHz y 120 MB de DRAM, 3 MB de EEPROM y 256 MB de memoria flash</li>
+								<li class="fragment roll-in">Antena omnidireccional de corto alcance para comunicarse con los satélites y una de largo alcance para comunicación directa con la Tierra.</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Mars Exploration Rovers</h3>
+						<ul>
+							<li class="fragment roll-in">Los instrumentos científicos utilizados son:</li>
+							<ul>
+								<li class="fragment roll-in">Cámara panorámica para la textura y color del terreno</li>
+								<li class="fragment roll-in">Cámara de navegación monocroma para la conducción (menor resolución pero mayor campo de visión)</li>
+								<li class="fragment roll-in">Espectrómetro de emisiones termales en miniatura (Mini-TES)</li>
+								<li class="fragment roll-in">Dos cámaras de 120º de campo de visión (Hazcam)</li>
+							</ul>
+							<li class="fragment roll-in">También tiene un brazo robótico equipado con:</li>
+							<li>
+								<ul>
+									<li class="fragment roll-in">Espectrómetro Mössbauer</li>
+									<li class="fragment roll-in">Espectrómetro de rayos X</li>
+									<li class="fragment roll-in">Imanes</li>
+									<li class="fragment roll-in">Unidad de captura de imágenes microscópicas</li>
+									<li class="fragment roll-in">Herramienta de abrasión de rocas</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Mars Exploration Rovers</h3>
+						<img src="img/NASA_Mars_Rover.jpg"/>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Mars Science Laboratory (MSL)</h3>
+						<img src="img/Mars_Science_Laboratory_mission_logo.png"/>
+					</section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
